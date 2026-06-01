@@ -4,7 +4,7 @@
 
 | Sprint | Month | Services Used | Estimated Cost |
 |--------|-------|--------------|----------------|
-| Sprint 1 | Month 1 | Azure Free Account setup | $0.00 |
+| Sprint 1 | Month 1 | Azure Account setup | $0.00 |
 
 ## Notes
 - Budget + cost alert set at 80% of $50
