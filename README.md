@@ -26,7 +26,7 @@ financial services company.
 |--------|--------|-------|
 | Sprint 1 | ✅ Complete | Azure + GitHub Foundation |
 | Sprint 2 | ✅ Complete | Entra ID & Identity |
-| Sprint 3 | 🔄  Not started | Security Hardening |
+| Sprint 3 | ✅   Not started | Security Hardening |
 | Sprint 4 | ✅  Not started | SOC Deployment |
 | Sprint 5 | 🔄 Not started | Detection Engineering |
 | Sprint 6 | 🔄 Not started | Automation & Playbooks |
