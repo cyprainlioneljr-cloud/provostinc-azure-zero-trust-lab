@@ -14,3 +14,4 @@
 - Sentinel ingestion kept minimal during build phase
 - E5 trial is free for 30 days — REMINDER: to cancel before auto-renewal 
   (~day 28) to avoid $57/month charge
+  - Sentinel free trial ends ~22 Jul 2026 (10 GB/day free until then)
