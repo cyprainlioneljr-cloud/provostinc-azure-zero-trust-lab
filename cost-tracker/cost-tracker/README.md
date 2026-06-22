@@ -6,6 +6,7 @@
 |--------|-------|--------------|----------------|
 | Sprint 1 | Month 1 | Azure Free Account setup | $0.00 |
 | Sprint 2 | Month 1 | Microsoft 365 E5 Trial | $0.00 |
+| Sprint 4 | Month 1 | Sentinel + Log Analytics (free trial, 10GB/day), SSO app | $0.00 |
 
 ## Notes
 - Budget + cost alert set at 80% of $50
