@@ -1,0 +1,25 @@
+// ===================================================================
+// Provost Inc — Audit Log Hunting Queries
+// Source table: AuditLogs (Microsoft Entra ID connector)
+// Purpose: monitor directory changes, privilege use, insider activity
+// ===================================================================
+
+// 1. Recent directory operations (who changed what)
+// Surfaces PIM activations, group changes, user lifecycle edits
+AuditLogs
+| project TimeGenerated, OperationName, InitiatedBy, Result, TargetResources
+| sort by TimeGenerated desc
+| take 50
+
+// 2. Failed / denied directory operations
+// Potential unauthorized-action attempts
+AuditLogs
+| where Result == "failure"
+| project TimeGenerated, OperationName, InitiatedBy, ResultReason
+| sort by TimeGenerated desc
+
+// 3. Privileged role activations (PIM activity)
+AuditLogs
+| where OperationName has "role"
+| project TimeGenerated, OperationName, InitiatedBy, TargetResources
+| sort by TimeGenerated desc
