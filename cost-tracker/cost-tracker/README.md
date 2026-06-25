@@ -8,6 +8,7 @@
 | Sprint 2 | Month 1 | Microsoft 365 E5 Trial | $0.00 |
 | Sprint 3 | Month 1 | Windows VM (B1s), Key Vault, Defender free tier | ~$5.00 |
 | Sprint 4 | Month 1 | Sentinel + Log Analytics (free trial, 10GB/day), SSO app | $0.00 |
+| Sprint 5 | Month 1 | Analytics rules, UEBA (minor storage), Identity Protection | ~$0.50 |
 
 ## Notes
 - Budget + cost alert set at 80% of $50
