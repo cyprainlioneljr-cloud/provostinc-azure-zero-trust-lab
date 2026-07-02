@@ -29,8 +29,8 @@ financial services company.
 | Sprint 3 | ✅ Complete | Security Hardening |
 | Sprint 4 | ✅ Complete | SOC Deployment |
 | Sprint 5 | ✅ Complete | Detection Engineering + Identity Monitoring |
-| Sprint 6 | 🔄 Not started | Automation & Playbooks |
-| Sprint 7 | 🔄 Not started | Attack Simulation |
+| Sprint 6 | ✅ Complete | Automation & Playbooks |
+| Sprint 7 | ✅ Complete | Attack Simulation |
 | Sprint 8 | 🔄 Not started | Governance & Compliance |
 | Sprint 9 | 🔄 Not started | Portfolio Finalization |
 
