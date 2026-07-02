@@ -31,7 +31,7 @@ financial services company.
 | Sprint 5 | ✅ Complete | Detection Engineering + Identity Monitoring |
 | Sprint 6 | ✅ Complete | Automation & Playbooks |
 | Sprint 7 | ✅ Complete | Attack Simulation |
-| Sprint 8 | 🔄 Not started | Governance & Compliance |
+| Sprint 8 | ✅ Complete| Governance & Compliance |
 | Sprint 9 | 🔄 Not started | Portfolio Finalization |
 
 ## Cost Tracking
