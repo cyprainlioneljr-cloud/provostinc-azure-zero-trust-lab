@@ -11,6 +11,7 @@
 | Sprint 5 | Month 1 | Analytics rules, UEBA (minor storage), Identity Protection | ~$0.50 |
 | Sprint 6 | Month 1 | Logic Apps playbook (few runs) | ~$0.20 |
 | Sprint 7 | Month 1 | provost-win-vm runtime (B2s, attack sessions) | ~$1.00 |
+| Sprint 8 | Month 1 | Access Reviews (P2 trial), compliance docs | $0.00 |
 
 ## Notes
 - Budget + cost alert set at 80% of $50
