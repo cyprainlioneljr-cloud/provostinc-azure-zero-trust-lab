@@ -1,0 +1,28 @@
+// ===================================================================
+// Provost Inc — Attack Detection Queries (Windows SecurityEvent)
+// Source: SecurityEvent (Windows Security Events via AMA)
+// Used to hunt Atomic Red Team activity and build detections
+// ===================================================================
+
+// 1. All process creation events (baseline hunt)
+SecurityEvent
+| where EventID == 4688
+| project TimeGenerated, Account, Computer, NewProcessName, ParentProcessName, CommandLine
+| sort by TimeGenerated desc
+
+// 2. Discovery tool execution (the working detection signature)
+// Note: CommandLine was blank (command-line auditing not enabled),
+// so detection keys on process name + parent process instead.
+SecurityEvent
+| where EventID == 4688
+| where NewProcessName has_any ("whoami.exe", "hostname.exe", "net.exe", "nltest.exe", "systeminfo.exe", "ipconfig.exe", "reg.exe")
+| where ParentProcessName has_any ("powershell.exe", "cmd.exe")
+| project TimeGenerated, Account, Computer, NewProcessName, ParentProcessName
+| sort by TimeGenerated desc
+
+// 3. Process count summary (footprint overview)
+SecurityEvent
+| where EventID == 4688
+| where TimeGenerated > ago(1d)
+| summarize count() by NewProcessName
+| sort by count_ desc
