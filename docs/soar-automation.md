@@ -52,3 +52,12 @@ fired -> playbook ran -> email delivered. Full chain operational.
 ## Why This Matters
 This is what turns a SIEM into a SOAR platform — detections don't just sit 
 in a queue, they trigger consistent, automated response with no analyst delay.
+### Automation rule wiring
+
+The automation rule triggers on incident creation, scoped by condition to the
+discovery detection, and runs the notification playbook:
+
+![Automation rule condition and Run playbook action](../screenshots/Screenshot%202026-07-02%20at%2014.35.59.png)
+
+This connects detection to automated response: incident created →
+automation rule fires → Provost-Notify-SOC playbook runs → SOC alerted.
