@@ -32,5 +32,5 @@ leaver process held, and the `#EXT#` guest from the B2B work:
 
 ![Graph PowerShell user and group report showing disabled leaver account](../screenshots/Screenshot%202026-07-02%20at%2019.52.13.png)
 
-This demonstrates API-driven identity operations — inventorying users and
+This demonstrates API-driven identity operations , inventorying users and
 groups programmatically rather than through the portal.
