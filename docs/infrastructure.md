@@ -1,4 +1,4 @@
-# Provost Inc — Infrastructure Deployment
+# Provost Inc  Infrastructure Deployment
 
 ## Objective
 Deploy Provost Inc's first compute resource: a hardened Windows Server VM 
@@ -26,5 +26,5 @@ vCPU quota before deployment was possible — a real-world Azure consideration.
 
 ## Why This Matters
 This VM is the protected counterpart to the future honeypot VM (deployed 
-in the live-ops phase). The contrast — a hardened internal host vs. an 
-intentionally exposed monitored host — demonstrates defensive posture design.
+in the live-ops phase). The contrast, a hardened internal host vs. an 
+intentionally exposed monitored host demonstrates defensive posture design.
