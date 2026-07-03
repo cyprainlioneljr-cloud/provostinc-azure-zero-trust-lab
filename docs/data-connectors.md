@@ -21,7 +21,7 @@ Confirmed ingestion via KQL in Advanced Hunting:
 - `AzureActivity` populates after policy deployment completes
 
 ## Why This Matters
-These connectors turn raw tenant telemetry into queryable security data — 
+These connectors turn raw tenant telemetry into queryable security data , 
 the foundation for all detection, alerting, and investigation in later sprints.
 ### Verification, SIEM ingesting live data
 
