@@ -1,22 +1,16 @@
-# Azure Cost Tracker — Provost Inc SOC Lab
+## Project Cost Summary
 
-## Budget: $50/month maximum
+| Category | Approx Total |
+|----------|-------------|
+| Compute (VM, auto-shutdown + deallocation) | ~$8 |
+| Sentinel ingestion (within free trial) | ~$0 |
+| Logic Apps (few runs) | <$1 |
+| Identity (P2/E5 trials — cancelled before billing) | $0 |
+| **Total project cost** | **~$10** |
 
-| Sprint | Month | Services Used | Estimated Cost |
-|--------|-------|--------------|----------------|
-| Sprint 1 | Month 1 | Azure Free Account setup | $0.00 |
-| Sprint 2 | Month 1 | Microsoft 365 E5 Trial | $0.00 |
-| Sprint 3 | Month 1 | Windows VM (B1s), Key Vault, Defender free tier | ~$5.00 |
-| Sprint 4 | Month 1 | Sentinel + Log Analytics (free trial, 10GB/day), SSO app | $0.00 |
-| Sprint 5 | Month 1 | Analytics rules, UEBA (minor storage), Identity Protection | ~$0.50 |
-| Sprint 6 | Month 1 | Logic Apps playbook (few runs) | ~$0.20 |
-| Sprint 7 | Month 1 | provost-win-vm runtime (B2s, attack sessions) | ~$1.00 |
-| Sprint 8 | Month 1 | Access Reviews (P2 trial), compliance docs | $0.00 |
-
-## Notes
-- Budget + cost alert set at 80% of $50
-- VM auto-shutdown will be scheduled for all compute resources
-- Sentinel ingestion kept minimal during build phase
-- E5 trial is free for 30 days — REMINDER: to cancel before auto-renewal 
-  (~day 28) to avoid $57/month charge
-  - Sentinel free trial ends ~22 Jul 2026 (10 GB/day free until then)
+## Cost Management Lessons
+- Auto-shutdown on all VMs prevented idle billing
+- Deallocated (not just shut down) VMs when not in use — compute billing stops
+- Used free trials (E5, Sentinel, Entra P2) with tracked cancellation dates
+- Requested VM quota increases rather than paying for oversized SKUs
+- Kept Defender for Cloud on the free Foundational tier (paid plans off)
