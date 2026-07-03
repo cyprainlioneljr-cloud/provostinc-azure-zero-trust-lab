@@ -1,4 +1,4 @@
-# 🛡️ Provost Inc — Azure Zero Trust SOC Lab
+# 🛡️ Provost Inc. Azure Zero Trust SOC Lab.
 
 An enterprise grade, fully documented Security Operations Center lab built on 
 Microsoft Azure,demonstrating end-to-end SOC engineering, identity 
