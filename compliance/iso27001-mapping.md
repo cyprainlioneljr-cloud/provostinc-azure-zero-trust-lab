@@ -23,6 +23,6 @@ information-security governance requirements.
 
 ## Why This Matters
 This mapping reframes hands-on Azure work as implementation of an 
-internationally recognized security framework — demonstrating not just 
+internationally recognized security framework demonstrating not just 
 technical ability, but the governance literacy to connect controls to 
 standards. This is what turns a lab into audit-ready evidence.
