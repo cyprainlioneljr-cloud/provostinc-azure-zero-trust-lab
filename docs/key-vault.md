@@ -1,4 +1,4 @@
-# Provost Inc Azure Key Vault
+# Provost Inc  Azure Key Vault
 
 ## Objective
 Deploy a Key Vault to securely store secrets, keys, and certificates, 
