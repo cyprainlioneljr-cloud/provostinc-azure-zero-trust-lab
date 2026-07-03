@@ -1,4 +1,4 @@
-# Provost Inc — Sentinel Data Connectors
+# Provost Inc , Sentinel Data Connectors
 
 ## Connectors Configured
 
