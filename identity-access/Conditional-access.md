@@ -1,6 +1,6 @@
-# Provost Inc — Conditional Access Policies
+# Provost Inc Conditional Access Policies
 
-## CA01 — Require MFA for All Staff
+## CA01 Require MFA for All Staff
 
 ### Purpose
 Enforce multi-factor authentication for all staff accessing any cloud 
@@ -28,4 +28,4 @@ resource, reducing the risk of credential-based compromise.
 
 ### Why This Matters
 Conditional Access replaces blunt security defaults with granular, 
-risk-aware controls — the foundation of a Zero Trust access model.
+risk-aware controls the foundation of a Zero Trust access model.
