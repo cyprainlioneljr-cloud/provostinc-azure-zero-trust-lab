@@ -61,3 +61,13 @@ discovery detection, and runs the notification playbook:
 
 This connect detection to automated response: incident created →
 automation rule fires → Provost-Notify-SOC playbook runs → SOC alerted.
+### Detection signature
+
+Discovery utilities (`whoami.exe`, `hostname.exe`) were observed spawning
+**from PowerShell** — a strong reconnaissance indicator, since legitimate
+users rarely invoke these via script in rapid succession:
+
+![whoami.exe and hostname.exe spawned by PowerShell in SecurityEvent data](../screenshots/Screenshot%202026-07-02%20at%2014.34.02.png)
+
+This process-name + parent-process pattern became the basis for the
+"Provost - Discovery Tool Execution" analytics rule.
