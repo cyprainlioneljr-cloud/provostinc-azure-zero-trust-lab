@@ -18,9 +18,9 @@ secrets attempting to view secrets returned "The operation is not
 allowed by RBAC."
 
 This is by design. Azure separates two layers of access:
-- **Management plane** (Owner, Contributor) — manage the vault *resource* 
+- **Management plane** (Owner, Contributor) : manage the vault *resource* 
   itself (create, delete, configure)
-- **Data plane** (Key Vault Secrets Officer, Secrets User) — work with the 
+- **Data plane** (Key Vault Secrets Officer, Secrets User) : work with the 
   vault's *contents* (the actual secrets, keys, certificates)
 
 Even as subscription Owner, data-plane access had to be explicitly granted 
@@ -31,4 +31,4 @@ could secrets be created and read.
 This separation enforces least privilege: someone who can manage the vault 
 resource cannot automatically read its sensitive contents. It mirrors the 
 broader lesson that different Azure access systems are deliberately 
-independent (see rbac.md — "Global Admin ≠ subscription Owner").
+independent (see rbac.md "Global Admin ≠ subscription Owner").
