@@ -23,3 +23,12 @@ Confirmed ingestion via KQL in Advanced Hunting:
 ## Why This Matters
 These connectors turn raw tenant telemetry into queryable security data — 
 the foundation for all detection, alerting, and investigation in later sprints.
+### Verification — SIEM ingesting live data
+
+Confirmed via KQL in Advanced Hunting that Entra ID sign-in telemetry is
+flowing into the workspace:
+
+![SigninLogs returning live sign-in data in Advanced Hunting](../screenshots/Screenshot%202026-06-25%20at%200.16.44.png)
+
+The `SigninLogs` table returned live events, proving the full pipeline works:
+Entra ID → diagnostic settings → Log Analytics → Sentinel → query.
