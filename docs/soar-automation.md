@@ -59,5 +59,5 @@ discovery detection, and runs the notification playbook:
 
 ![Automation rule condition and Run playbook action](../screenshots/Screenshot%202026-07-02%20at%2014.35.59.png)
 
-This connects detection to automated response: incident created →
+This connect detection to automated response: incident created →
 automation rule fires → Provost-Notify-SOC playbook runs → SOC alerted.
