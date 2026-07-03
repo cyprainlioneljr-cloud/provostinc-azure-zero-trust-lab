@@ -1,4 +1,4 @@
-# Provost Inc — ISO/IEC 27001:2022 Control Mapping
+# Provost Inc ISO/IEC 27001:2022 Control Mapping
 
 This maps the technical controls implemented across the lab to ISO 27001 
 Annex A controls, demonstrating the environment satisfies recognized 
