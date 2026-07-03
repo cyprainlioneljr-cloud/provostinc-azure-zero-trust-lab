@@ -1,4 +1,4 @@
-# Provost Inc  Role-Based Access Control (RBAC)
+# Provost Inc   Role-Based Access Control (RBAC)
 
 ## Objective
 Implement least-privilege access using both built-in and custom Azure RBAC 
