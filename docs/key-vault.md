@@ -1,4 +1,4 @@
-# Provost Inc — Azure Key Vault
+# Provost Inc Azure Key Vault
 
 ## Objective
 Deploy a Key Vault to securely store secrets, keys, and certificates, 
@@ -14,7 +14,7 @@ using the modern Azure RBAC permission model.
 
 ## Key Lesson: Management Plane vs Data Plane
 Creating the Key Vault did NOT grant permission to read or write its 
-secrets — attempting to view secrets returned "The operation is not 
+secrets attempting to view secrets returned "The operation is not 
 allowed by RBAC."
 
 This is by design. Azure separates two layers of access:
