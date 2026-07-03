@@ -34,7 +34,7 @@ require Entra ID Governance.
 ### Audit evidence
 
 The completed access review shows the recertification decision, reviewer,
-justification, and timestamp — exactly the evidence an ISO 27001 / SOC 2
+justification, and timestamp exactly the evidence an ISO 27001 / SOC 2
 auditor requires:
 
 ![Access review overview showing completed recertification (progress donut)](../screenshots/Screenshot%202026-07-02%20at%2015.47.40.png)
