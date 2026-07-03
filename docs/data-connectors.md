@@ -8,7 +8,7 @@
 | Sign-In Logs | Every authentication, MFA prompt, Conditional Access decision |
 | Audit Logs | Directory changes: user lifecycle, PIM activations, group/role changes |
 | Non-Interactive Sign-In Logs | Token refreshes, background auth (anomaly detection) |
-| User Risk Events / Risky Users | Entra ID Protection risk signals (P2) — feeds Sprint 5 monitoring |
+| User Risk Events / Risky Users | Entra ID Protection risk signals (P2)  feeds Sprint 5 monitoring |
 
 ### Azure Activity
 - Subscription-scoped, connected via Azure Policy
@@ -23,7 +23,7 @@ Confirmed ingestion via KQL in Advanced Hunting:
 ## Why This Matters
 These connectors turn raw tenant telemetry into queryable security data — 
 the foundation for all detection, alerting, and investigation in later sprints.
-### Verification — SIEM ingesting live data
+### Verification, SIEM ingesting live data
 
 Confirmed via KQL in Advanced Hunting that Entra ID sign-in telemetry is
 flowing into the workspace:
