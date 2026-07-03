@@ -2,7 +2,7 @@
 
 ## Objective
 Connect detection to automated response, so that a detected threat 
-automatically triggers a notification — the core of SOAR (Security 
+automatically triggers a notification the core of SOAR (Security 
 Orchestration, Automation, and Response).
 
 ## The Full Chain
