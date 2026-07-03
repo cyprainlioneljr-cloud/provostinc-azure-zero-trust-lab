@@ -22,7 +22,7 @@ timestamp captured as audit evidence (see screenshots).
 
 ## Why This Matters
 Access recertification proves that privileged access is periodically 
-validated — not merely granted and forgotten. The documented justification 
+validated not merely granted and forgotten. The documented justification 
 and auto-apply enforcement are exactly the evidence an ISO 27001 / SOC 2 
 auditor requires for access-control assurance.
 
