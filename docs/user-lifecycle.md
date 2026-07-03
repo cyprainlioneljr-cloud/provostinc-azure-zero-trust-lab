@@ -1,4 +1,4 @@
-# Provost Inc — User Lifecycle Management (Joiner / Mover / Leaver)
+# Provost Inc User Lifecycle Management (Joiner / Mover / Leaver)
 
 ## Objective
 Simulate the full identity lifecycle for a Provost Inc employee, 
@@ -21,8 +21,8 @@ demonstrating provisioning, access recalculation, and deprovisioning.
   to permission accumulation ("access creep")
 
 ### Leaver (Offboarding)
-- Sign-in blocked (Account enabled = No) — stops all future authentication
-- Sessions revoked — invalidates active tokens immediately
+- Sign-in blocked (Account enabled = No):stops all future authentication
+- Sessions revoked :invalidates active tokens immediately
 - Both actions required: block stops future logins, revoke kills current ones
 - Documented final stage: after a retention period, the account would be 
   removed from all groups and deleted (account retained here as evidence)
@@ -36,5 +36,5 @@ Lifecycle Workflows are noted as a future enhancement.
 
 ## Why This Matters
 Identity lifecycle management is core to identity governance: the right 
-access at the right time, and — critically — immediate removal of access 
+access at the right time, and immediate removal of access 
 when it's no longer warranted.
