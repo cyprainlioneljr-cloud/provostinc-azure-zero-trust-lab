@@ -1,4 +1,4 @@
-# Provost Inc — Microsoft Sentinel Deployment
+# Provost Inc Microsoft Sentinel Deployment
 
 ## Objective
 Deploy a SIEM for Provost Inc using Microsoft Sentinel on a dedicated 
@@ -19,5 +19,5 @@ Log Analytics workspace, managed through the Microsoft Defender portal.
 
 ## Honeypot Readiness
 Workspace built clean with 90-day retention so the end-phase honeypot 
-attack data flows into the existing SIEM with no rework — only one 
+attack data flows into the existing SIEM with no rework only one 
 additional connector required when the honeypot goes live.
