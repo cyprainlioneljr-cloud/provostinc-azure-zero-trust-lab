@@ -1,4 +1,4 @@
-# Provost Inc — User Accounts
+# Provost Inc User Accounts
 
 This document records the workforce identities created in Microsoft Entra ID 
 for the Provost Inc SOC lab.
