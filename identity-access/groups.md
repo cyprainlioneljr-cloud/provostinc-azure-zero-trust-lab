@@ -1,4 +1,4 @@
-# Provost Inc — Security Groups
+# Provost Inc Security Groups
 
 Security groups segment access by role, supporting least-privilege and 
 Zero Trust principles.
