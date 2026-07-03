@@ -13,7 +13,7 @@ governance, detection engineering, automated response, and compliance mapping.
 - **Governance** — ISO 27001 control mapping, ISO 42001 AI governance, audit evidence
 
 ## 🎓 Certifications Mapped
-CompTIA Security+ · AZ-104 · AZ-500 · SC-200 (passed ✅) · SC-300 · ISO 27001 · ISO 42001
+CompTIA Security+ · AZ-104 · AZ-500 · SC-200 · SC-300 · ISO 27001 · ISO 42001
 
 ## 🏗️ Architecture
 | Layer | Technology |
