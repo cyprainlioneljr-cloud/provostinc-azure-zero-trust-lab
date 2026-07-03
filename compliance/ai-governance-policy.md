@@ -1,4 +1,4 @@
-# Provost Inc — Responsible AI Usage Policy
+# Provost Inc Responsible AI Usage Policy
 
 ## Purpose
 Govern the responsible use of AI/ML within Provost Inc's security operations, 
@@ -13,7 +13,7 @@ consistent with ISO/IEC 42001.
 3. **Auditability.** All AI-influenced decisions must be traceable to the 
    underlying data (logs, events) that informed them.
 4. **Continuous oversight.** Human oversight is maintained throughout the 
-   incident lifecycle — detection, triage, response, and closure.
+   incident lifecycle ; detection, triage, response, and closure.
 5. **Validation over trust.** AI detections are validated against raw 
    telemetry rather than accepted at face value.
 
