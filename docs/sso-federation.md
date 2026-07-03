@@ -1,4 +1,4 @@
-# Provost Inc — SSO & Federation
+# Provost Inc SSO & Federation
 
 ## Objective
 Federate identity from Entra ID to an external SaaS application using SAML, 
@@ -18,6 +18,6 @@ demonstrating enterprise single sign-on.
 - Entra ID supports both; choice depends on the application's requirements
 
 ## Why This Matters
-SSO federation extends Zero Trust beyond the portal — every application a 
+SSO federation extends Zero Trust beyond the portal every application a 
 user accesses is authenticated and policy-controlled through one trusted 
 identity provider, reducing password sprawl and the credential attack surface.
