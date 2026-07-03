@@ -47,7 +47,7 @@ See `incident-reports/incident-001-discovery-activity.md`.
 
 ## 💰 Cost Management
 Built on a controlled budget (<$50/month) using auto-shutdown, VM 
-deallocation, free-tier services, and trial licensing — with full spend 
+deallocation, free-tier services, and trial licensing, with full spend 
 tracking throughout. See `cost-tracker/`.
 
 ## 🗺️ Sprint Journey
@@ -67,5 +67,5 @@ tracking throughout. See `cost-tracker/`.
 
 ---
 *A portfolio project demonstrating real-world Azure security engineering and 
-SOC analyst capability — from foundation to live operations.*
+SOC analyst capability,from foundation to live operations.*
 * Claude AI and Chatgpt was used in some situations.
