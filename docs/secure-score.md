@@ -1,4 +1,4 @@
-# Provost Inc — Defender for Cloud Secure Score
+# Provost Inc Defender for Cloud Secure Score
 
 ## Objective
 Establish a measurable security posture baseline using Microsoft Defender 
@@ -25,5 +25,5 @@ for Cloud's free Foundational CSPM tier, then improve it through remediation.
 ## Why This Matters
 Secure Score turns security posture into a measurable, trackable metric. 
 Demonstrating a before/after improvement proves not just deployment, but 
-active hardening — the difference between standing up resources and 
+active hardening the difference between standing up resources and 
 securing them.
