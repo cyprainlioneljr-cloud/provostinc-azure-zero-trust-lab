@@ -5,12 +5,12 @@ Microsoft Azure,demonstrating end-to-end SOC engineering, identity
 governance, detection engineering, automated response, and compliance mapping.
 
 ## 🎯 What This Project Demonstrates
-- **SOC Operations** — Microsoft Sentinel SIEM, KQL detection engineering, incident response
-- **Identity & Access** — Entra ID, Conditional Access, MFA, PIM, Access Reviews, lifecycle management
-- **Cloud Security** — RBAC, custom roles, Key Vault, NSGs, Defender for Cloud
-- **Automation (SOAR)** — Logic Apps playbooks, automated detect→respond pipeline
-- **Attack Simulation** — Atomic Red Team, validated detections, real investigation
-- **Governance** — ISO 27001 control mapping, ISO 42001 AI governance, audit evidence
+- **SOC Operations** : Microsoft Sentinel SIEM, KQL detection engineering, incident response
+- **Identity & Access** : Entra ID, Conditional Access, MFA, PIM, Access Reviews, lifecycle management
+- **Cloud Security** : RBAC, custom roles, Key Vault, NSGs, Defender for Cloud
+- **Automation (SOAR)** : Logic Apps playbooks, automated detect→respond pipeline
+- **Attack Simulation** : Atomic Red Team, validated detections, real investigation
+- **Governance** : ISO 27001 control mapping, ISO 42001 AI governance, audit evidence
 
 ## 🎓 Certifications Mapped
 CompTIA Security+ · AZ-104 · AZ-500 · SC-200 · SC-300 · ISO 27001 · ISO 42001
