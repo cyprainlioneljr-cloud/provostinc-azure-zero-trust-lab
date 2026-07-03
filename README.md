@@ -68,3 +68,4 @@ tracking throughout. See `cost-tracker/`.
 ---
 *A portfolio project demonstrating real-world Azure security engineering and 
 SOC analyst capability — from foundation to live operations.*
+* Claude AI and Chatgpt was used in some situations.
