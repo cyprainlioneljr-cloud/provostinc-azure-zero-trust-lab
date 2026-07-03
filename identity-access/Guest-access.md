@@ -1,4 +1,4 @@
-# Provost Inc — External Identity (B2B) Access
+# Provost Inc External Identity (B2B) Access
 
 ## Objective
 Simulate secure collaboration with an external contractor/partner using 
