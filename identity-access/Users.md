@@ -16,5 +16,5 @@ for the Provost Inc SOC lab.
 - Passwords are auto-generated and stored securely outside this repo.
 - Sarah Chen is used as the standard test account for validating 
   Conditional Access policies.
-- David Park represents a high-value executive target — useful for 
+- David Park represents a high-value executive target useful for 
   later attack-simulation and risk-based access scenarios.
