@@ -1,4 +1,4 @@
-# Incident Report 001 — Reconnaissance / Discovery Activity
+# Incident Report 001 Reconnaissance / Discovery Activity
 
 ## Summary
 During controlled attack simulation (Atomic Red Team) on provost-win-vm, 
@@ -29,13 +29,13 @@ signature, since legitimate users rarely invoke these via script in rapid
 succession.
 
 Detection query used:
-\```kql
+kql
 SecurityEvent
 | where EventID == 4688
 | where NewProcessName has_any ("whoami.exe", "hostname.exe", "net.exe", "nltest.exe")
 | where ParentProcessName has_any ("powershell.exe", "cmd.exe")
 | project TimeGenerated, Account, Computer, NewProcessName, ParentProcessName
-\```
+
 
 ## Detection Gap Identified
 The attack generated telemetry but initially produced NO incident — the only 
@@ -49,9 +49,9 @@ creation events" audit policy was not enabled. Detection was adapted to key
 on process name and parent-process relationship instead.
 
 ## Remediation
-1. Authored analytics rule "Provost - Discovery Tool Execution" (detects 
+1. Authored analytics rule "Provost Discovery Tool Execution" (detects 
    discovery utilities spawned by a command shell)
-2. Built automation rule "Provost - Notify on Discovery Detection"
+2. Built automation rule "Provost Notify on Discovery Detection"
 3. Wired notification playbook "Provost-Notify-SOC"
 
 ## Response Validation (end-to-end)
@@ -74,10 +74,10 @@ response coverage measurably improved.
 ### Detection signature
 
 Discovery utilities (`whoami.exe`, `hostname.exe`) were observed spawning
-**from PowerShell** — a strong reconnaissance indicator, since legitimate
+**from PowerShell** : a strong reconnaissance indicator, since legitimate
 users rarely invoke these via script in rapid succession:
 
 ![whoami.exe and hostname.exe spawned by PowerShell in SecurityEvent data](../screenshots/Screenshot%202026-07-02%20at%2014.34.02.png)
 
 This process-name + parent-process pattern became the basis for the
-"Provost - Discovery Tool Execution" analytics rule.
+"Provost Discovery Tool Execution" analytics rule.
