@@ -1,4 +1,4 @@
-# Provost Inc IAM Automation (Graph PowerShell)
+# Provost Inc  IAM Automation (Graph PowerShell)
 
 ## Objective
 Automate identity reporting via the Microsoft Graph PowerShell SDK, 
