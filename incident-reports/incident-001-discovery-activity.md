@@ -15,9 +15,9 @@ including an identified detection gap and its remediation.
 ## Timeline
 | Time | Event |
 |------|-------|
-| T0 | Atomic Red Team discovery techniques executed on provost-win-vm |
-| T0 | whoami.exe / hostname.exe spawned by PowerShell (Event ID 4688) |
-| T0+min | Telemetry confirmed in Sentinel via SecurityEvent |
+| To | Atomic Red Team discovery techniques executed on provost-win-vm |
+| To | whoami.exe / hostname.exe spawned by PowerShell (Event ID 4688) |
+| To+min | Telemetry confirmed in Sentinel via SecurityEvent |
 | Investigation | Initial detection gap identified (no incident generated) |
 | Remediation | New analytics rule authored to close the gap |
 | Validation | Re-ran attack; incident created, automation fired, SOC emailed |
