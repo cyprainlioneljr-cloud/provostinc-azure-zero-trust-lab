@@ -1,4 +1,4 @@
-# Provost Inc — Detection Engineering
+# Provost Inc , Detection Engineering
 
 ## Objective
 Transform raw log data into actionable detections using KQL hunting queries, 
@@ -15,16 +15,16 @@ Log ingested (SigninLogs/AuditLogs)
 \```
 
 ## What Was Built
-- **KQL hunting library** — sign-in and audit-log queries (see /kql-queries)
-- **Custom analytics rule** — "Provost - Multiple Failed Sign-Ins" (brute-force detection)
-- **Template rules** — installed and studied Microsoft's pre-built scheduled 
+- **KQL hunting library** : sign-in and audit-log queries (see /kql-queries)
+- **Custom analytics rule** : "Provost - Multiple Failed Sign-Ins" (brute-force detection)
+- **Template rules** : installed and studied Microsoft's pre-built scheduled 
   rules (e.g. "Brute force attack against Azure Portal") to learn detection patterns
-- **Workbook** — Entra ID sign-in dashboard for visual monitoring
+- **Workbook** : Entra ID sign-in dashboard for visual monitoring
 
 ## Tools and Locations
-- **Advanced hunting** (Defender portal) — for running raw KQL
-- **Microsoft Sentinel → Configuration → Analytics** — for analytics rules
-- **Microsoft Sentinel → Threat management → Workbooks** — for dashboards
+- **Advanced hunting** (Defender portal) : for running raw KQL
+- **Microsoft Sentinel → Configuration → Analytics** : for analytics rules
+- **Microsoft Sentinel → Threat management → Workbooks** : for dashboards
 
 ## Why This Matters
 Detection engineering is the core of SOC operations. Collecting logs is 
