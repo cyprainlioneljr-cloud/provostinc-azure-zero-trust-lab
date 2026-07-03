@@ -18,7 +18,7 @@ resource, reducing the risk of credential-based compromise.
 
 ### Engineering Approach
 1. **Break-glass exclusion:** The Global Administrator account was 
-   excluded to prevent tenant lockout — a critical safeguard when 
+   excluded to prevent tenant lockout  a critical safeguard when 
    deploying any tenant-wide access policy.
 2. **Report-only first:** The policy was deployed in Report-only mode 
    to observe its impact via sign-in logs before enforcement.
