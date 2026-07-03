@@ -22,7 +22,7 @@ to represent the company's protected internal estate.
 ## Note: VM Quota Restriction
 New pay-as-you-go subscriptions default to zero vCPU quota for many VM 
 families. A support request was required to raise the Standard BS Family 
-vCPU quota before deployment was possible — a real-world Azure consideration.
+vCPU quota before deployment was possible a real-world Azure consideration.
 
 ## Why This Matters
 This VM is the protected counterpart to the future honeypot VM (deployed 
