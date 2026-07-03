@@ -37,7 +37,7 @@ Entra directory roles and Azure RBAC roles are completely separate systems:
 
 The fix: assign the admin@ account **Owner** on the subscription. Notably, 
 Owner and Contributor are classified by Azure as **Privileged Administrator 
-Roles** — separated in the portal from "Job function roles" because they 
+Roles**  separated in the portal from "Job function roles" because they 
 can delegate access to others. This is an intentional governance guardrail.
 
 ## Why This Matters
