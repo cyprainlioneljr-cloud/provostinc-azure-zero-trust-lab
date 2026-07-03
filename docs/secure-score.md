@@ -1,4 +1,4 @@
-# Provost Inc Defender for Cloud Secure Score
+# Provost Inc  Defender for Cloud Secure Score
 
 ## Objective
 Establish a measurable security posture baseline using Microsoft Defender 
