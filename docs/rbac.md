@@ -1,4 +1,4 @@
-# Provost Inc — Role-Based Access Control (RBAC)
+# Provost Inc  Role-Based Access Control (RBAC)
 
 ## Objective
 Implement least-privilege access using both built-in and custom Azure RBAC 
@@ -12,7 +12,7 @@ roles, mapped to Provost Inc job functions.
 ## Custom Role: Provost-SOC-VM-Operator
 **Scenario:** SOC analysts need to start/restart VMs during incident 
 response, but must NOT be able to delete VMs or change networking. No 
-built-in role fit this exactly — so a custom role was authored.
+built-in role fit this exactly  so a custom role was authored.
 
 Permissions granted (control-plane Actions):
 - Microsoft.Compute/virtualMachines/read
@@ -21,18 +21,18 @@ Permissions granted (control-plane Actions):
 - Microsoft.Compute/virtualMachines/instanceView/read
 
 Deliberately excluded: no delete, no write (reconfigure), no network 
-permissions. This is least privilege — exactly the operations needed, 
+permissions. This is least privilege  exactly the operations needed, 
 nothing more.
 
 ## Key Lesson: Global Admin ≠ Subscription Owner
 A critical early discovery: the native admin@ account held **Global 
 Administrator** (an Entra ID / directory role) but could not create or 
-manage Azure resources — it had no **Azure RBAC** role on the subscription.
+manage Azure resources it had no **Azure RBAC** role on the subscription.
 
 Entra directory roles and Azure RBAC roles are completely separate systems:
-- **Entra ID roles** (e.g. Global Administrator) — govern identity and 
+- **Entra ID roles** (e.g. Global Administrator) : govern identity and 
   directory objects (users, groups, Conditional Access)
-- **Azure RBAC roles** (e.g. Owner, Contributor) — govern Azure *resources* 
+- **Azure RBAC roles** (e.g. Owner, Contributor) : govern Azure *resources* 
   (subscriptions, resource groups, VMs)
 
 The fix: assign the admin@ account **Owner** on the subscription. Notably, 
