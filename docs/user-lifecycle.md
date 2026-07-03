@@ -30,7 +30,7 @@ demonstrating provisioning, access recalculation, and deprovisioning.
 ## Note on Automation
 Fully automated joiner/mover/leaver would use Entra ID Governance Lifecycle 
 Workflows. That feature requires a separate Entra ID Governance license (not 
-included in the E5 trial), so the lifecycle was performed manually here — 
+included in the E5 trial), so the lifecycle was performed manually here 
 demonstrating the same understanding at zero additional cost. Automated 
 Lifecycle Workflows are noted as a future enhancement.
 
