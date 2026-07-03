@@ -38,7 +38,7 @@ SecurityEvent
 
 
 ## Detection Gap Identified
-The attack generated telemetry but initially produced NO incident — the only 
+The attack generated telemetry but initially produced NO incident the only 
 existing analytics rule targeted failed sign-ins, not process execution. 
 Visibility existed, but no detection was watching this behavior.
 
