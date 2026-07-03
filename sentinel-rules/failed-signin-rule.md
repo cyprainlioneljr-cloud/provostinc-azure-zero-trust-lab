@@ -1,19 +1,19 @@
-# Provost Inc — Analytics Rule: Multiple Failed Sign-Ins
+# Provost Inc Analytics Rule: Multiple Failed Sign-Ins
 
 ## Rule Name
-Provost - Multiple Failed Sign-Ins
+Provost Multiple Failed Sign-Ins
 
 ## Objective
 Detect accounts experiencing 5 or more failed sign-in attempts in a short 
-window — a signature of brute-force or password-spray attacks.
+window a signature of brute-force or password-spray attacks.
 
 ## Detection Logic (KQL)
-\```kql
+kql
 SigninLogs
 | where ResultType != 0
 | summarize FailedAttempts = count() by UserPrincipalName, IPAddress
 | where FailedAttempts >= 5
-\```
+
 
 ## Configuration
 | Setting | Value |
@@ -32,7 +32,7 @@ SigninLogs
 | Account | UserPrincipalName |
 | IP | IPAddress |
 
-Entity mapping makes generated incidents investigable — analysts can pivot 
+Entity mapping makes generated incidents investigable analysts can pivot 
 directly on the affected account and source IP.
 
 ## Why Threshold = 5
@@ -47,6 +47,6 @@ correlation engine governs incident creation and naming. Alerts from this
 rule surface in the unified Defender incident queue.
 
 ## Current State / Honeypot Readiness
-With only legitimate lab users present, this rule rarely fires today — by 
+With only legitimate lab users present, this rule rarely fires today by 
 design. It is armed and ready: when the end-phase honeypot attracts real 
 brute-force traffic, this rule will generate live incidents with no rework.
