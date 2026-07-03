@@ -1,4 +1,4 @@
-# Provost Inc — Access Reviews (Recertification)
+# Provost Inc  Access Reviews (Recertification)
 
 ## Objective
 Periodically recertify that users still require their assigned access, 
