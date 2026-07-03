@@ -33,5 +33,5 @@ response coverage, using the Atomic Red Team framework mapped to MITRE ATT&CK.
 
 ## Why This Matters
 On-command attack simulation validates that detections actually fire against 
-real attacker techniques — the difference between assuming coverage and 
+real attacker techniques, the difference between assuming coverage and 
 proving it.
