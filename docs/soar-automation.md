@@ -1,4 +1,4 @@
-# Provost Inc — SOAR Automation Pipeline
+# Provost Inc SOAR Automation Pipeline
 
 ## Objective
 Connect detection to automated response, so that a detected threat 
@@ -6,7 +6,7 @@ automatically triggers a notification — the core of SOAR (Security
 Orchestration, Automation, and Response).
 
 ## The Full Chain
-\```
+
 Attack executed (Atomic Red Team)
   -> SecurityEvent logged to Sentinel
   -> Analytics rule detects it (Provost - Discovery Tool Execution)
@@ -14,7 +14,7 @@ Attack executed (Atomic Red Team)
   -> Automation rule triggers (Provost - Notify on Discovery Detection)
   -> Playbook runs (Provost-Notify-SOC)
   -> SOC receives email alert
-\```
+
 
 ## Components
 | Component | Name | Role |
@@ -70,4 +70,4 @@ users rarely invoke these via script in rapid succession:
 ![whoami.exe and hostname.exe spawned by PowerShell in SecurityEvent data](../screenshots/Screenshot%202026-07-02%20at%2014.34.02.png)
 
 This process-name + parent-process pattern became the basis for the
-"Provost - Discovery Tool Execution" analytics rule.
+"Provost Discovery Tool Execution" analytics rule.
