@@ -1,4 +1,4 @@
-# Provost Inc — Privileged Identity Management (PIM)
+# Provost Inc Privileged Identity Management (PIM)
 
 ## Objective
 Eliminate standing administrative access by making privileged roles 
@@ -21,4 +21,4 @@ elevation.
 ## Why This Matters
 Standing admin accounts are a primary target for attackers. JIT access 
 through PIM means there is no permanent privileged account to compromise, 
-dramatically reducing the attack surface — a core Zero Trust control.
+dramatically reducing the attack surface a core Zero Trust control.
