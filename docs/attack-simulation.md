@@ -1,4 +1,4 @@
-# Provost Inc — Attack Simulation (Atomic Red Team)
+# Provost Inc , Attack Simulation (Atomic Red Team)
 
 ## Objective
 Safely attack the lab environment on-command to validate detection and 
