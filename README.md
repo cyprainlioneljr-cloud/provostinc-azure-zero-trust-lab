@@ -45,6 +45,12 @@ automated playbook → validated the full chain:
 **attack → detect → incident → automate → SOC alert.**
 See `incident-reports/incident-001-discovery-activity.md`.
 
+## 🍯 Live Operations
+Deployed an isolated internet-facing honeypot that captured **531 real attacks 
+from 9 countries within a single day** - including a 514-attempt brute-force in 
+under 3 minutes. No compromise. 
+[Full incident analysis →](incident-reports/incident-002-live-honeypot-attacks.md)
+
 ## 💰 Cost Management
 Built on a controlled budget (<$50/month) using auto-shutdown, VM 
 deallocation, free-tier services, and trial licensing, with full spend 
