@@ -1,7 +1,7 @@
 **Classification:** Informational / Threat Intelligence (controlled exposure)
 **Date of activity:** July 4, 2026
 **Environment:** Provost Inc SOC Lab isolated honeypot subnet
-**Status:** Closed — no compromise
+**Status:** Closed - no compromise
 
 ---
 
