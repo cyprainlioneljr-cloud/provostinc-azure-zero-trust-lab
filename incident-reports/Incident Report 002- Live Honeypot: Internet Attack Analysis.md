@@ -142,7 +142,7 @@ The dominant attacker's profile reveals the speed of automated attacks:
 - **Source:** `178.135.49.178` (Lebanon)
 - **Target:** `WORKGROUP\Administrator`
 - **Volume:** 514 attempts
-- **Window:** 12:54:32 PM → 12:57:31 PM — **under 3 minutes**
+- **Window:** 12:54:32 PM → 12:57:31 PM - **under 3 minutes**
 - **Rate:** ~3 attempts per second (unmistakably automated tooling)
 - Preceded by a single reconnaissance probe against the `admin` account
 
@@ -184,7 +184,7 @@ compromised despite 531 attempts.**
 - **Attacks are automated and relentless.** 514 attempts in under 3 minutes is
   machine speed. Human-scale assumptions about attack pacing are wrong.
 - **Default accounts are the first target.** `Administrator`, `admin`, `guest`,
-  `test` — attackers assume these exist. Renaming/disabling defaults and
+  `test` - attackers assume these exist. Renaming/disabling defaults and
   enforcing strong unique credentials is the front-line defense.
 - **Anonymous logon is a recon signal.** Restricting anonymous enumeration (via
   Group Policy) removes a reconnaissance avenue attackers rely on.
