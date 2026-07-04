@@ -49,7 +49,7 @@ See `incident-reports/incident-001-discovery-activity.md`.
 Deployed an isolated internet-facing honeypot that captured **531 real attacks 
 from 9 countries within a single day** - including a 514-attempt brute-force in 
 under 3 minutes. No compromise. 
-[Full incident analysis →](incident-reports/incident-002-live-honeypot-attacks.md)
+[Full incident analysis →]incident-reports/Incident Report 002- Live Honeypot: Internet Attack Analysis.md
 
 ## 💰 Cost Management
 Built on a controlled budget (<$50/month) using auto-shutdown, VM 
