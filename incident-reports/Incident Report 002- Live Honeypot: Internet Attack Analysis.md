@@ -94,7 +94,7 @@ dominant aggressor.
 ![Attacker IPs and attempt counts](../screenshots/honeypot-attacker-ips.png)
 
 A single IP (`178.135.49.178`) accounted for 514 of the attempts against the
-`Administrator` account, while a dozen other IPs made 1–6 opportunistic probes
+`Administrator` account, while a dozen other IPs made 1-6 opportunistic probes
 each against common accounts (`admin`, `guest`, `test`, and null sessions).
 
 ### Geographic Distribution
@@ -118,7 +118,7 @@ across 4 continents**.
 | France | 1 |
 
 Notably, while attacks were *geographically broad*, ~97% of the volume came from
-a single Lebanese IP — a distinction between distributed opportunistic scanning
+a single Lebanese IP - a distinction between distributed opportunistic scanning
 and one determined, automated aggressor.
 
 ### Timeline
@@ -155,7 +155,7 @@ Critical check - did any attacker successfully authenticate?
 ![Successful logon check](../screenshots/honeypot-successful-logon-check.png)
 
 The only successful user logon was `NT AUTHORITY\ANONYMOUS LOGON` (LogonType 3)
-from `46.105.132.55` (France). **This is not a credentialed compromise** — it is
+from `46.105.132.55` (France). **This is not a credentialed compromise** - it is
 an anonymous network session, consistent with reconnaissance / enumeration
 rather than password theft.
 
@@ -171,7 +171,7 @@ compromised despite 531 attempts.**
 - ✓ 531 attacks captured and analyzed
 - ✓ 13 source IPs identified and geolocated
 - ✓ Attack timeline established
-- ✓ Compromise triage completed — no credentialed breach
+- ✓ Compromise triage completed - no credentialed breach
 - ✓ Host torn down after data collection
 
 ---
