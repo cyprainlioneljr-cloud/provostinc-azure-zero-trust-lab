@@ -47,7 +47,7 @@ See `incident-reports/incident-001-discovery-activity.md`.
 
 ## 🍯 Live Operations
 Deployed an isolated internet-facing honeypot that captured **531 real attacks 
-from 9 countries within a single day** — including a 514-attempt brute-force in 
+from 9 countries within a single day** - including a 514-attempt brute-force in 
 under 3 minutes. No compromise. 
 [Full incident analysis →](incident-reports/incident-002-live-honeypot-attacks.md)
 
