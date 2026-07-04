@@ -1,6 +1,6 @@
 **Classification:** Informational / Threat Intelligence (controlled exposure)
 **Date of activity:** July 4, 2026
-**Environment:** Provost Inc SOC Lab — isolated honeypot subnet
+**Environment:** Provost Inc SOC Lab isolated honeypot subnet
 **Status:** Closed — no compromise
 
 ---
@@ -45,12 +45,12 @@ value.
 
 ## Technologies Used
 
-- **Microsoft Azure** — isolated resource group, VNet, subnet, NSG
-- **Windows Server VM** — the honeypot / sensor
-- **Azure Monitor Agent + Data Collection Rule** — log forwarding
-- **Log Analytics Workspace** — centralized telemetry
-- **Microsoft Sentinel / Advanced Hunting** — analysis via KQL
-- **KQL geo_info_from_ip_address()** — IP geolocation enrichment
+- **Microsoft Azure** : isolated resource group, VNet, subnet, NSG
+- **Windows Server VM** : the honeypot / sensor
+- **Azure Monitor Agent + Data Collection Rule** : log forwarding
+- **Log Analytics Workspace** : centralized telemetry
+- **Microsoft Sentinel / Advanced Hunting** :analysis via KQL
+- **KQL geo_info_from_ip_address()** : IP geolocation enrichment
 
 ---
 
@@ -58,13 +58,13 @@ value.
 
 The honeypot was deliberately isolated from all other resources:
 
-- **Dedicated resource group** (`provost-honeypot-rg`) — separate from the lab RG
-- **Dedicated VNet** (`10.10.0.0/16`) — a non-overlapping address space with
+- **Dedicated resource group** (`provost-honeypot-rg`) : separate from the lab RG
+- **Dedicated VNet** (`10.10.0.0/16`) : a non-overlapping address space with
   **no peering** to any lab network, so no route exists from the honeypot to real
   resources
-- **Dedicated NSG** — the only ingress control, deliberately set to allow all
+- **Dedicated NSG** : the only ingress control, deliberately set to allow all
   inbound to attract traffic
-- **Unique credentials** — used nowhere else, so a compromise could not enable
+- **Unique credentials** : used nowhere else, so a compromise could not enable
   credential reuse
 - **Shared only one thing with the SOC:** the Sentinel workspace, for log
   collection
@@ -150,7 +150,7 @@ The dominant attacker's profile reveals the speed of automated attacks:
 
 ## Triage: Was the Host Compromised?
 
-Critical check — did any attacker successfully authenticate?
+Critical check - did any attacker successfully authenticate?
 
 ![Successful logon check](../screenshots/honeypot-successful-logon-check.png)
 
@@ -206,8 +206,8 @@ compromised despite 531 attempts.**
 
 ## Conclusion
 
-This exercise turned an abstract security principle — "exposed systems get
-attacked quickly" — into measured, documented reality. It demonstrated safe
+This exercise turned an abstract security principle - "exposed systems get
+attacked quickly" - into measured, documented reality. It demonstrated safe
 honeypot design, live telemetry collection, real attacker analysis across
 volume, source, geography, and timing, and professional compromise triage. The
 data provides a concrete, defensible answer to *why* enterprises invest in
